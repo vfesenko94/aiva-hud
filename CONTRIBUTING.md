@@ -29,6 +29,6 @@ rg -n '[\x{0400}-\x{04FF}]' hooks types .claude-plugin/plugin.json
 rg -n '^\s*(//|/\*|\*)|\{/\*' hooks
 ```
 
-`CLAUDE.md` and `RULES.md` are maintainer documents. The validator warns that a root `CLAUDE.md` does not ship runtime context; this plugin does not depend on it doing so. A missing listing icon is a separate catalog warning, not a marketplace installation failure.
+A missing listing icon is a catalog warning, not a marketplace installation failure.
 
 Before publishing, work through [the release checklist](docs/release-checklist.md). Automated checks do not replace interactive installation and UI checks.

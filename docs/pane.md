@@ -1,6 +1,6 @@
 # HUD pane layout
 
-Developer reference for `hooks/core/pane`. The shared frame is implemented; engine behavior and project rules are maintained in [RULES.md](../RULES.md).
+Developer reference for `hooks/core/pane`. The shared frame is implemented; development checks are documented in [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 [Overview](../README.md) · [User controls](guide.md#controls)
 
@@ -40,4 +40,4 @@ Check both placements at wide and narrow sizes:
 - Escape goes back before closing nested views.
 - Closing or reopening a pane invalidates stale asynchronous focus work.
 
-Use the existing regression tests and the checks in [CLAUDE.md](../CLAUDE.md). Avoid tests that only repeat layout or wording.
+Use the existing regression tests and the checks in [CONTRIBUTING.md](../CONTRIBUTING.md#checks). Avoid tests that only repeat layout or wording.
