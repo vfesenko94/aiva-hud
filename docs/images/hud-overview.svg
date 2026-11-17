@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title description">
+<title id="title">Claude Code with AIVA HUD</title>
+<desc id="description">Illustrated black terminal with the orange Claude character, an idle cache countdown, an empty prompt, and AIVA HUD. Example readings: Opus 5.5 high, 28k/1M context, and 5-hour usage at 23 percent.</desc>
+<defs>
+<linearGradient id="chrome" x2="0" y2="1"><stop stop-color="#262626"/><stop offset="1" stop-color="#202020"/></linearGradient>
+<clipPath id="window"><rect x="16" y="12" width="1168" height="450" rx="14"/></clipPath>
+</defs>
+<rect width="1200" height="480" rx="18" fill="#080808"/>
+<g clip-path="url(#window)">
+<rect x="16" y="12" width="1168" height="450" fill="#151515"/>
+<path d="M16 12H1184V58H16Z" fill="url(#chrome)"/>
+<path d="M16 58H1184" stroke="#333"/>
+<circle cx="43" cy="35" r="6" fill="#ff6058"/><circle cx="64" cy="35" r="6" fill="#febc2e"/><circle cx="85" cy="35" r="6" fill="#28c840"/>
+<text x="600" y="41" text-anchor="middle" fill="#b6b6b6" font-family="'Segoe UI',sans-serif" font-size="16">Claude Code — ~/your-project</text>
+<g fill="#d97757" shape-rendering="crispEdges">
+<path d="M66 103H142V112H150V139H142V148H66V139H58V112H66Z"/>
+<path d="M66 148H75V160H66ZM84 148H93V160H84ZM115 148H124V160H115ZM133 148H142V160H133Z"/>
+</g>
+<path d="M80 117H89V128H80ZM119 117H128V128H119Z" fill="#151515"/>
+<g font-family="'Cascadia Mono',Consolas,'Liberation Mono',monospace" font-size="21" xml:space="preserve">
+<text x="174" y="116" fill="#efefef" font-weight="700">Claude Code</text>
+<text x="174" y="145" fill="#a1a1a1">Opus 5.5 · Claude Pro</text>
+<text x="174" y="174" fill="#838383">~/your-project</text>
+<text x="46" y="260"><tspan fill="#72bb89">◷ cache 56:42</tspan><tspan fill="#7e7e7e"> (until 15:05)</tspan></text>
+<path d="M40 280H1160M40 332H1160" stroke="#666" stroke-width="1.5"/>
+<text x="44" y="314" fill="#f0f0f0" font-size="27">❯</text>
+<rect x="70" y="292" width="11" height="24" fill="#e0e0e0"/>
+<text x="53" y="368" fill="#e6bc4b">⏵⏵ auto mode on</text>
+<text x="720" y="368"><tspan fill="#d97757">Opus 5.5</tspan><tspan fill="#b1b9f9"> high</tspan><tspan fill="#777"> · </tspan><tspan fill="#72bb89">28k/1M</tspan><tspan fill="#777"> · 5h </tspan><tspan fill="#72bb89">23%</tspan><tspan fill="#777"> · </tspan></text>
+<text x="1119" y="369" fill="#a6a0b0" font-size="26">⚙</text>
+</g>
+</g>
+<rect x="16.5" y="12.5" width="1167" height="449" rx="14" fill="none" stroke="#3a3a3a"/>
+</svg>

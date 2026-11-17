@@ -1,0 +1,20 @@
+{
+  "name": "aiva-hud",
+  "version": "0.1.0",
+  "description": "Interactive Claude Code status bar with built-in settings and live previews. Customize readings and hints, explore context and tool history, and check usage limits.",
+  "author": {
+    "name": "vfesenko94"
+  },
+  "homepage": "https://github.com/vfesenko94/aiva-hud#readme",
+  "repository": "https://github.com/vfesenko94/aiva-hud",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "cacheTtl": {
+      "type": "string",
+      "title": "Prompt cache TTL",
+      "description": "auto: use the prompt cache setting, then observed pauses, then a guess (1h with rate limits, otherwise 5m)",
+      "default": "auto",
+      "options": ["auto", "5m", "1h"]
+    }
+  }
+}

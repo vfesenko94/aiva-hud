@@ -1,0 +1,12 @@
+{
+  "name": "aiva-hud",
+  "owner": { "name": "vfesenko94" },
+  "metadata": { "description": "AIVA HUD, an interactive status bar mod for Claude Code." },
+  "plugins": [
+    {
+      "name": "aiva-hud",
+      "source": "./",
+      "description": "Interactive Claude Code status bar with built-in settings and live previews."
+    }
+  ]
+}
